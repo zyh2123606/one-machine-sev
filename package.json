@@ -1,0 +1,29 @@
+{
+  "name": "WecomProj",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/custom-rn-theme && node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "^2.2.1",
+    "fs-flex": "^0.2.0",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.3",
+    "react-navigation": "^2.18.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-plugin-import": "^1.9.1",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-redux": "^5.0.7",
+    "react-test-renderer": "16.6.0-alpha.8af6728",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
