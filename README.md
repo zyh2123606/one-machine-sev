@@ -2,7 +2,7 @@
 react-native一体机混合模型开发
 # android离线打包apk文件(windows系统)
 1、生成签名秘钥
-keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+# keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 
 2、将my-release-key.keystore文件放在android/app项目文件夹中的目录下。
 3、编辑文件~/.gradle/gradle.properties或android/gradle.properties，并添加以下内容（替换*****为正确的密钥库密码，别名和密钥密码）
