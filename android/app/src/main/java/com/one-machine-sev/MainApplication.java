@@ -1,4 +1,4 @@
-package com.wecomproj;
+package com.one-machine-sev;
 
 import android.app.Application;
 
