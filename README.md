@@ -13,7 +13,7 @@ react-native一体机混合模型开发
 
 4、编辑android/app/build.gradle项目文件夹中的文件，然后添加签名配置，
 ...
-android {
+# android {
     ...
     defaultConfig { ... }
     signingConfigs {
