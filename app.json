@@ -1,4 +1,7 @@
 {
   "name": "WecomProj",
-  "displayName": "WecomProj"
+  "displayName": "WecomProj",
+  "expo": {
+    "sdkVersion": "27.0.0"
+  }
 }

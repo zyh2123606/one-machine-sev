@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node scripts/custom-rn-theme && node_modules/react-native/local-cli/cli.js start",
+    "start": "node scripts/custom-rn-theme && node node_modules/react-native/local-cli/cli.js start",
+    "dev:start": "node scripts/custom-rn-theme && react-native-scripts start",
+    "android": "react-native-scripts android",
     "test": "jest"
   },
   "dependencies": {
@@ -16,8 +18,10 @@
   "devDependencies": {
     "babel-jest": "23.6.0",
     "babel-plugin-import": "^1.9.1",
+    "expo": "^30.0.1",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.48.1",
+    "react-native-scripts": "1.14.0",
     "react-redux": "^5.0.7",
     "react-test-renderer": "16.6.0-alpha.8af6728",
     "redux": "^4.0.1",
