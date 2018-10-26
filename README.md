@@ -6,7 +6,8 @@ react-native一体机混合模型开发
 
 2、将my-release-key.keystore文件放在android/app项目文件夹中的目录下。
 3、编辑文件~/.gradle/gradle.properties或android/gradle.properties，并添加以下内容（替换*****为正确的密钥库密码，别名和密钥密码）
-# MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
+#修改配置文件
+MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
 MYAPP_RELEASE_KEY_ALIAS=my-key-alias
 MYAPP_RELEASE_STORE_PASSWORD=*****
 MYAPP_RELEASE_KEY_PASSWORD=*****
